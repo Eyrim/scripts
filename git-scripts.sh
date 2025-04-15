@@ -2,5 +2,7 @@
 
 alias gs="git status";
 
-branch
+branch () {
+    git branch --show-current;
+}
 
